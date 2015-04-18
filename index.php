@@ -42,7 +42,7 @@ try {
 			$language = null;
 		}
 
-		$results->language = $language;
+		$results->languages = [ $language ];
 	}
 
 	echo json_encode($results) . "\n";
